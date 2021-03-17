@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali Project#1</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  </head>
+
+  <body>
+    <section class="section1">
+      <nav>
+        <div class="logo"><h3><i class="fas fa-fire"></i></h3></div>
+        <div class="lis" >
+          <ul id="data_show">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="tel:+923314113737">Contect</a></li>
+          </ul>
+        </div>
+        <button id="data" class="line3"><i class="fas fa-bars"></i></button>
+      </nav>
+      <div class="namesection">
+        <div class="name">
+          <h1>Ali Butt</h1>
+          <p>JavaScript Developer</p>
+          <button  class="btn"><a href="#about">About</a></button>
+        </div>
+        <div class="social">
+          <div><a href="https://twitter.com/aqibalibutt1"><i class="fab fa-twitter"></i></a></div>
+          <div><a href="https://github.com/Alibutt787"><i class="fab fa-github"></i></a></div>
+          <div><a href="https://www.linkedin.com/in/aqib-ali-butt-a75086208/"><i class="fab fa-linkedin-in"></i></a></div>
+        </div>
+      </div>
+    </section>
+    <section class="about_me" id="about">
+      <div class="about_text">
+        <h3>About Me</h3>
+        <p>
+          Hi there, I’m Ali Butt. I’m a JavaScript Developer from the Pakistan,
+           and a certified Computer Science Student from the Punjab University .
+        </p>
+      </div>
+      <div>
+        <img
+          class="about_img"
+          src="https://cdn.dribbble.com/users/260312/screenshots/2553737/antnodeskdb.gif"
+          alt="img"
+        />
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div>
+        <h3>Projects</h3>
+        <div class="project_container">
+          <div class="project_card">
+            <img
+              class="card_img"
+              src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              alt="img"
+            />
+            <h2>Project #1</h2>
+            <hr />
+            <br/>
+            <a class="view" href="">View Details</a>
+          </div>
+          <div class="project_card">
+            <img
+              class="card_img"
+              src="https://images.unsplash.com/photo-1567336144580-e439f43b680a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=607&q=80"
+              alt="img"
+            />
+            <h2>Project #2</h2>
+            <hr />
+            <br/>
+            <a class="view" href="">View Details</a>
+          </div>
+          <div class="project_card">
+            <img
+              class="card_img"
+              src="https://images.unsplash.com/photo-1601933973706-34bd411ffd67?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80"  alt="img"
+            />
+            <h2>Project #3</h2>
+            <hr />
+            <br/>
+            <a class="view" href="">View Details</a>
+          </div>
+          <div class="project_card">
+            <img
+              class="card_img"
+              src=" https://images.unsplash.com/photo-1577035103604-54e9d4f0ca7c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"
+              alt="img"
+            />
+            <h2>Project #4</h2>
+            <hr />
+            <br/>
+            <a class="view" href="">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>Copyright &copy; 2021</footer>
+
+    <script>
+
+      const liElement = document.getElementById('data');
+      const listDiv =  document.getElementById('data_show');
+
+      function hy() {
+          listDiv.classList.toggle('show');
+          console.log('hahah');
+          
+      }
+      liElement.addEventListener('click', hy)
+            </script>
+  </body>
+</html>
